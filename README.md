@@ -8,7 +8,7 @@ $ cd sse
 $ virtualenv env
 $ . env/bin/activate
 $ pip install requirement.txt
-$ gunicorn sse:app --worker-class gevent --bind 127.0.0.1:8000
+$ gunicorn sse:server --worker-class gevent --bind 127.0.0.1:8000
 ```
 
 # TODO:
